@@ -227,7 +227,7 @@ It took roughly 12 minutes for 25 mutants on my machine.
 - No fields, fuzzy/prefix/wildcard queries, highlighting or query-time boosts.
 - Evaluation is synthetic with generator-made labels; the corpus is random word salad, so phrase relevance is only unit-tested.
 - Tested only on JDK 17 with Maven 3.9.9 on Windows. I have not compared scores with Lucene or any other engine.
-- CI: the workflow is included; CI not yet confirmed.
+- CI: the workflow is included. CI ran green on the first run on GitHub Actions (Java 17 and 21, ubuntu-latest, 2026-10-20).
 - Not production-ready; a learning and showcase project.
 
 ## Layout
